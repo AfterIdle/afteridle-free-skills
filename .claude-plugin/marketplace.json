@@ -1,0 +1,19 @@
+{
+  "name": "afteridle",
+  "owner": {
+    "name": "AfterIdle"
+  },
+  "description": "AfterIdle's free energy-aware Agent Skills for Claude: AfterIdle Starter (small steps matched to your energy) and Context Handoff (save your place, resume fast).",
+  "plugins": [
+    {
+      "name": "afteridle-free-skills",
+      "source": "./",
+      "description": "Free energy-aware skills: AfterIdle Starter and Context Handoff.",
+      "strict": false,
+      "skills": [
+        "./skills/afteridle-starter",
+        "./skills/context-handoff"
+      ]
+    }
+  ]
+}
